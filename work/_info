@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vseq_101
+!s110 1774927683
+!i10b 1
+!s100 BF?D`6hf?PF_AI_Th]aB:2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5QjoT94zKZ29;zDD]2PW10
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/User/Desktop/FSM DEMO/FSM_Seq_101
+w1774927681
+8C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/seq_101.v
+FC:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/seq_101.v
+!i122 2
+L0 15 60
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1774927683.000000
+!s107 C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/seq_101.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/seq_101.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vtestbench
+!s110 1774927800
+!i10b 1
+!s100 U?FLj4`=Y593fzH2lZYLb1
+R0
+IfIQ9<mH`>XefY>>2<6ohH1
+R1
+R2
+w1774927799
+8C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/testbench.v
+FC:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/testbench.v
+!i122 3
+L0 2 31
+R3
+r1
+!s85 0
+31
+!s108 1774927800.000000
+!s107 C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/User/Desktop/FSM DEMO/FSM_Seq_101/testbench.v|
+!i113 1
+R4
+R5
