@@ -1,0 +1,38 @@
+/*============================================
+	            CLOCK DIVIDER
+==============================================
+Description:
+ This module take 50Mhz clock input and divide
+ it to produce 1Hz clock output.
+
+Design Engineer:
+ Pamposa, Rogelio III, V.
+
+Date:
+ Feb. 18, 2026 - initial creation of code block
+ Apr. 5,  2026 - updated data for 3s tick code block
+-----------------------------------------------
+*/
+module  clk_div(clk_out,clk_led,clk_in);
+ //ports
+ input clk_in;
+ output reg clk_out = 1'b0;
+ output reg clk_led = 1'b0;
+ 
+ // 3s clock @50MHz
+ parameter integer TICKS_3S = 150_000_000; // no. of ticks per 3s
+ reg [27:0] tick_cnt = 28'b0; // count 0..149,999,999
+ 
+ always@(posedge clk_in) begin
+    if(tick_cnt == TICKS_3S-1) begin 
+       clk_out <= ~clk_out;
+       clk_led <= ~clk_led;
+       tick_cnt <= 28'b0;
+    end
+    
+    else tick_cnt <= tick_cnt + 28'b1;
+ 
+ end
+
+
+endmodule

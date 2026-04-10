@@ -8,15 +8,27 @@
 					"strict" : false
 				},
 				{
+					"name" : "state[0]",
+					"strict" : false
+				},
+				{
+					"name" : "state[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_led",
+					"strict" : false
+				},
+				{
 					"name" : "in",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "rst_n",
 					"strict" : false
 				},
 				{
-					"name" : "rst_n",
+					"name" : "clk_in",
 					"strict" : false
 				}
 			]
